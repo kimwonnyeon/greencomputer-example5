@@ -1,0 +1,84 @@
+/* 1000 */
+@media (max-width:1000px){
+      /* list */
+    .card-list ul{
+        grid-template-columns:repeat(3,minmax(0,1fr));
+    }
+}
+/* 768 */
+@media (max-width:768px){
+    .menu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .nav{
+        justify-content: flex-end;
+    }
+    header{
+        height: 65px;
+    }
+    /* 메인 */
+    .intro{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .intro p{
+        font-size: 16px;
+    }
+    /* list */
+    .card-list ul{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+}
+/* 480 */
+@media(max-width:480px){
+    .intro-text br{
+        display: block;
+    }
+      /* list */
+    .card-list ul{
+        grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+    .country p{
+        font-size: 14px;
+    }
+    .card-list h3{
+        font-size: 16px;
+    }
+    .price{
+        font-size: 14px;
+    }
+}
+/* 390 */
+@media(max-width:390px){
+    header h1{
+        font-size: 22px;
+    }
+    header {
+        height: 55px;
+    }
+    .intro-text h2{
+        font-size: 28px;
+    }
+    .intro-text p{
+        font-size: 14px;
+    }
+    .filter-btn{
+        gap: 10px;
+        font-size: 12px;
+        border-radius: 3px;
+    }
+    .filter-btn img{
+        width: 20px;
+    }
+    .filter-btn span{
+        display: none;
+    }
+      /* list */
+    .card-list ul{
+        grid-template-columns:1fr;
+    }
+}
