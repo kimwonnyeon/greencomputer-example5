@@ -20,7 +20,7 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: auto;
-  background-color: rgb(245, 155, 155);
+  /* background-color: rgb(245, 155, 155); */
 }
 /* 전체 레이아웃 */
 .wrap {
