@@ -9,12 +9,23 @@
 @media (max-width:768px){
     .menu{
         display: none;
+        position: absolute;
+        top: 45px;
+        right: 0px;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        background-color: aqua;
+    }
+    .menu.show{
+        display: flex;
     }
     .hamburger{
         display: block;
     }
     .nav{
         justify-content: flex-end;
+        position: relative;
     }
     header{
         height: 65px;
