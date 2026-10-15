@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("font.css");
 * {
   margin: 0;
   padding: 0;
@@ -74,13 +74,15 @@ main {
   align-items: flex-end;
 }
 .intro-text h2 {
+  font-family: 'OwnglyphYuntaeng';
   font-size: 48px;
-  font-family: "Libre Caslon Condensed", serif;
+  /* font-family: "Libre Caslon Condensed", serif; */
   margin-bottom: 3%;
 }
 .intro-text p {
   font-size: 20px;
-  font-family: "Libre Caslon Condensed", serif;
+  font-family: 'OwnglyphYuntaeng';
+  /* font-family: "Libre Caslon Condensed", serif; */
 }
 .intro-text br {
   display: none;
@@ -102,7 +104,8 @@ main {
 .card-list ul {
   display: grid;
   gap: 32px 24px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
 }
 .card-list>ul>li{
     border-radius: 6px;

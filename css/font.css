@@ -1,0 +1,44 @@
+/* 글꼴 */
+/* 다운로드 X */
+/* @font-face {
+    font-family: 'OwnglyphYuntaeng';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2608211801@font-160/font-160/온글잎 윤탱체.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+} */
+ /* 다운로드 O */
+@font-face {
+    font-family: 'OwnglyphYuntaeng';
+    src: url('../fonts/온글잎\ 윤탱체.ttf') 
+    format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+/* 부크크 글꼴
+@font-face {
+    font-family: 'BookkMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BookkMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+} */
+@font-face {
+    font-family: 'BookkMyungjo';
+    src: url('../fonts/BookkGothic_Bold.ttf') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BookkMyungjo';
+    src: url('../fonts/BookkGothic_Bold.ttf') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap");
